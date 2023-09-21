@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/junhojohn/CocoapodDeployTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'junhojohn' => 'junhojohn@fsn.co.kr' }
+  s.author           = { 'junhojohn' => 'junhojohn@gmail.com' }
   s.source           = { :git => 'https://github.com/junhojohn/CocoapodDeployTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
