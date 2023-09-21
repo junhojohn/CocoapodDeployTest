@@ -15,7 +15,7 @@
 		7D1AFBF1B03A81B84C0C1E84A0ACFE23 /* CocoapodDeployTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC0C8DC93BF7437570E1ECF6003B1EB /* CocoapodDeployTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D9CD35EC60286073B88D07797AD1772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		900C1E84DA9A24473ADF3A33C6F1A2D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D4AB5B7C1BA0CFD75CFFAB9B051CF778 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC6F4D337110CEAD2F29851A4A1073 /* ReplaceMe.swift */; };
+		D4AB5B7C1BA0CFD75CFFAB9B051CF778 /* CocoapodDeployTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEC6F4D337110CEAD2F29851A4A1073 /* CocoapodDeployTest.swift */; };
 		FABF89AF6A4B35BF8C74B85B6D5048F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +69,7 @@
 		BAEA65E455F3AE9AB8D2D02AA4A2DCFC /* CocoapodDeployTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoapodDeployTest.debug.xcconfig; sourceTree = "<group>"; };
 		D2B34B0E06C852A34D1ED0923FFB4A08 /* Pods-CocoapodDeployTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoapodDeployTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBC0C8DC93BF7437570E1ECF6003B1EB /* CocoapodDeployTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoapodDeployTest-umbrella.h"; sourceTree = "<group>"; };
-		DDEC6F4D337110CEAD2F29851A4A1073 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CocoapodDeployTest/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DDEC6F4D337110CEAD2F29851A4A1073 /* CocoapodDeployTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoapodDeployTest.swift; path = CocoapodDeployTest/Classes/CocoapodDeployTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +170,7 @@
 		B1446641840256E1009AC294BF5FD320 /* CocoapodDeployTest */ = {
 			isa = PBXGroup;
 			children = (
-				DDEC6F4D337110CEAD2F29851A4A1073 /* ReplaceMe.swift */,
+				DDEC6F4D337110CEAD2F29851A4A1073 /* CocoapodDeployTest.swift */,
 				C1EAF5FA3D339E79F91AC6091D64816B /* Pod */,
 				3B3B192461B2A90C84EB1D77BB1266D1 /* Support Files */,
 			);
@@ -376,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F2085F7917A73544582BB9B2CA2977D /* CocoapodDeployTest-dummy.m in Sources */,
-				D4AB5B7C1BA0CFD75CFFAB9B051CF778 /* ReplaceMe.swift in Sources */,
+				D4AB5B7C1BA0CFD75CFFAB9B051CF778 /* CocoapodDeployTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

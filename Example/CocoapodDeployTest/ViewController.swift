@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CocoapodDeployTest
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showAlert(_ sender: Any) {
+        //TODO 구현
+        CocoapodDeployTest(title: "Is this simple?", confirm: "Yes", completion: {
+            print("It is so simple")
+        });
+    }
 }
 
